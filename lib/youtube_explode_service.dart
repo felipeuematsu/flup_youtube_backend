@@ -1,7 +1,6 @@
 import 'dart:async';
 
-import 'package:flup_youtube_backend/model/search_query_response.dart';
-import 'package:flup_youtube_backend/model/video_manifest_response.dart';
+import 'package:karaoke_request_api/karaoke_request_api.dart';
 import 'package:uuid/uuid.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
