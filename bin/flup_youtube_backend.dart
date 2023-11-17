@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as shelf_io;
 
-import '../lib/youtube_explode_service.dart';
+import 'package:flup_youtube_backend/youtube_explode_service.dart';
 
 void main() async {
   var handler = const Pipeline().addMiddleware(logRequests()).addHandler(_echoRequest);
